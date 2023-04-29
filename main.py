@@ -1,7 +1,7 @@
 from aiogram import Bot, Dispatcher, executor, types
 from keyboards import ikmStart, ikm2023, ikmarbuz, ikmbc
+from config import Token
 
-Token = "5720687382:AAEBzoXQzLnL4QYFad70te3sZHIM7h28D-o"
 
 bot = Bot(Token)
 dp = Dispatcher(bot)
@@ -50,6 +50,7 @@ text = """АБУЗ ПАРТНЕРКИ 30К/КРУГ
 🔥Цена места у нас: 500₽
 
 Занять место в складчине можно только в автоматическом режиме, по кнопке "Занять место"!"""
+
 
 @dp.message_handler(commands=['start'])
 async def start_command(message: types.Message):
