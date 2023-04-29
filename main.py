@@ -1,7 +1,7 @@
 from aiogram import Bot, Dispatcher, executor, types
 from keyboards import *
 from config import Token
-from txtToMsg import *
+from Texts.txtToMsg import *
 
 bot = Bot(Token)
 dp = Dispatcher(bot)
