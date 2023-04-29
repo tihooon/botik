@@ -8,8 +8,8 @@ startButtons = [InlineKeyboardButton(text='Схемы заработка 2023', 
 
 
 ikm2023 = InlineKeyboardMarkup(row_width=1)
-buttons1 = [InlineKeyboardButton(text='арбуз партнурки', callback_data='arbuz1'),
-            InlineKeyboardButton(text='ебеёший скам вайлдберриса', callback_data='arbuz2'),
+buttons1 = [InlineKeyboardButton(text='Абьюз партнёрки 30К круг', callback_data='arbuz1'),
+            InlineKeyboardButton(text='Скам вайлдберриса', callback_data='arbuz2'),
             InlineKeyboardButton(text='ещё какая-то хуетень', callback_data='arbuz3'),
             InlineKeyboardButton(text='ебал я это писать x2', callback_data='arbuz4'),
             InlineKeyboardButton(text='назад', callback_data='start')]
@@ -29,7 +29,6 @@ for btn in startButtons:
 
 for btn in buttons1:
     ikm2023.add(btn)
-
 
 for btn in arbuz1Buttons:
     ikmarbuz.add(btn)
